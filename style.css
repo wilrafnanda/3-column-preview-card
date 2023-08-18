@@ -65,6 +65,7 @@ button{
     border-width: 2px;
     border-style: solid;
     cursor: pointer;
+    font-family: 'Lexend Deca'; 
     
     
 }
@@ -94,7 +95,7 @@ button{
 }
 @media (max-width:600px) {
     .column-container{
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: center;
         min-width: 235px;
         
@@ -104,5 +105,11 @@ button{
    }
    .column-3{
     border-radius: 0 0 15px 15px;
+   }
+   body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
    }
 }
